@@ -144,4 +144,4 @@ Thumbs.db
 
 [Obsidian公开课合集-清单控沙牛](https://space.bilibili.com/443605967/lists/266172?type=season)
 
-[# Obsidian如何使用Github实现同步](https://www.bilibili.com/video/BV1HY5EzCEk5/?spm_id_from=333.1387.homepage.video_card.click&vd_source=45bb2c2960a5fd61cfffe3668d0a3b2b)
+[Obsidian如何使用Github实现同步](https://www.bilibili.com/video/BV1HY5EzCEk5/?spm_id_from=333.1387.homepage.video_card.click&vd_source=45bb2c2960a5fd61cfffe3668d0a3b2b)
