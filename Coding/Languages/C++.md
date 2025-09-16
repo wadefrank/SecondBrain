@@ -51,7 +51,40 @@ int main() {
 
 计算两个数的最大公约数（GCD, Greatest Common Divisor）
 
+用法：
+
 ```cpp
+// C++17
 #include <numeric>
 
-int result = std::gcd(a, b);  // 需要C++17或更高
+int result = std::gcd(a, b);  
+```
+
+实现，欧几里得算法 (辗转相除法)，基于数学原理：gcd(a, b) = gcd(b, a % b)：
+```cpp
+#include <iostream>
+#include <cmath> // 用于 std::abs
+
+// 迭代版本
+int gcd_iterative(int a, int b) {
+    a = std::abs(a); // 处理负数[2,3](@ref)
+    b = std::abs(b);
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
+
+// 递归版本
+int gcd_recursive(int a, int b) {
+    a = std::abs(a);
+    b = std::abs(b);
+    if (b == 0) {
+        return a;
+    }
+    return gcd_recursive(b, a % b);
+}
+
+```
