@@ -44,3 +44,14 @@ int main() {
 	std::cout << "秒: " << sec.count() << " s\n";
 }
 ```
+
+# C++17
+
+## std::gcd()
+
+计算两个数的最大公约数（GCD, Greatest Common Divisor）
+
+```cpp
+#include <numeric>
+
+int result = std::gcd(a, b);  // 需要C++17或更高
