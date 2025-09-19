@@ -310,3 +310,20 @@ def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
 
 - Positional-only parameters are placed before a `/`
 - Keyword-only parameters are placed after a `*`
+
+# Language Reference
+
+## 5 The import system
+
+# 英语术语
+
+Keyword Arguments（关键字参数）
+
+- 使用关键字参数时需要遵循 key = value 的语法，key为参数名，value为需要输入的值。
+- 使用关键字参数的优点为不需要考虑所输入参数的顺序。
+
+# python debug
+
+## 参考资料
+
+[命令行pyd方式在vscode中优雅debug Python](https://zhuanlan.zhihu.com/p/615198529)
