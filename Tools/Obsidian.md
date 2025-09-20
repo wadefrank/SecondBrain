@@ -77,6 +77,7 @@ Obsidian能做什么：
 # 4 快捷键
 
 * command+E：阅读模式和编辑模式切换
+* command+L: 添加任务列表
 * command+P：打开命令面板
 
 # 5 GitHub同步
