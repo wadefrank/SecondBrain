@@ -1,14 +1,17 @@
 ---
 aliases: []
-tags: [paper, literature-note, 📥inbox]
-status: #inbox/reviewed
+tags:
+status:
 authors: []
-year: {{year}}
-conference: {{conference}}
+year:
+  "{ year }":
+conference:
+  "{ conference }":
 title: "{{title}}"
-url: 
-zotero_link: [[{{zotero link}}]]
-pdf_link: 
+url:
+zotero_link:
+  - - "{ zotero link }":
+pdf_link:
 ---
 
 # {{Title}}
